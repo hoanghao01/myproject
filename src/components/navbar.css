@@ -4,7 +4,7 @@ nav {
     background: var(--color-primary);
     display: grid;
     place-items: center;    /* center the items horizontally and vertically */
-    /*position: fixed;*/    /* fixed to the top of the viewport */
+    position: fixed;    /* fixed to the top of the viewport */
     top: 0;
     left: 0;
     z-index: 99;    /* z-index is a CSS property that sets the stack order of specific elements. An element with greater stack order is always in front of an element with a lower stack order. */
